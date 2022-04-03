@@ -1,0 +1,33 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(79.5deg, #F8CCFF 0%, #FFEBCC 100%);
+}
+
+.companyName {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  color: #2F1973;
+}
+
+.companyDescription {
+  margin-top: 10px;
+  margin-bottom: 70px;
+  width: 500px;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2F1973;
+}
