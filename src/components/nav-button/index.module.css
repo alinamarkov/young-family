@@ -1,0 +1,36 @@
+.button {
+  width: min-content;
+  padding: 6px 28px;
+  height: auto;
+
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #2F1973;
+
+  background-color: #ffffff00;
+
+  border: 0px;
+  border-radius: 37.5px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #FFEBCC;
+  box-shadow: 0px 2px 4px #00000040;
+}
+
+.active:hover {
+  transition: 0.3s;
+  background-color: #FFEBCC;
+  box-shadow: 0px 1px 4px #00000040;
+}
+
+.default {
+  background-color: #ffffff00;
+}
+
+.default:hover {
+  background-color: #00000015;
+}
