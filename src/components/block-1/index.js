@@ -12,7 +12,14 @@ function Block1() {
         Молодая команда нянь, созданная помочь молодым семьям, 
         проследив за ребёнком, пока взрослых нет дома!
       </span>
-      <NavButton text="Выбрать няню" active={true} borderRadius="15px"/>
+      <NavButton 
+        path="/nanny" 
+        text="Выбрать няню" 
+        verticalPadding="1.2vw" 
+        backgroundColor="#FFEBCC" 
+        borderRadius="1vw"
+        boxShadow="0px 0.1vw 0.4vw #00000040"
+      />
     </section>
   );
 }

@@ -9,25 +9,26 @@
 }
 
 .companyName {
-  margin-top: 20px;
-  margin-bottom: 0px;
+  margin-top: 2vw;
+  margin-bottom: 0;
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
-  font-size: 64px;
-  line-height: 75px;
+  font-size: 5vw;
+  line-height: 6vw;
   color: #2F1973;
+  text-align: center;
 }
 
 .companyDescription {
-  margin-top: 10px;
-  margin-bottom: 70px;
-  width: 500px;
+  margin-top: 1vw;
+  margin-bottom: 7vw;
+  width: 50vw;
   text-align: center;
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 1.5vw;
+  line-height: 2vw;
   color: #2F1973;
 }
