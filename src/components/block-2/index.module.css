@@ -16,8 +16,8 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 2.5vw;
+  line-height: 2vw;
   color: #000000;
 }
 
@@ -25,6 +25,6 @@
   height: 40%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 15px;
+  grid-column-gap: 1.5vw;
   justify-content: center;
 }

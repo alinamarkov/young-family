@@ -36,7 +36,7 @@ const properties = [
 function Block2() {
   return (
     <section className={styles.section}>
-      
+
       <h1 className={styles.question}>Что мы готовы Вам предложить?</h1>
       
       <div className={styles.properties}>
@@ -52,11 +52,14 @@ function Block2() {
       </div>
 
       <NavButton 
+        path="/nanny"
         text="Начать поиск няни"
         active={true}
         backgroundColor="#23B8E8"
         borderRadius="15px"
         fontColor="#fff"
+        verticalPadding="1.2vw"
+        boxShadow="0px 0.1vw 0.4vw #00000040"
       />
 
     </section>
