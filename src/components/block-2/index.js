@@ -56,9 +56,9 @@ function Block2() {
         text="Начать поиск няни"
         active={true}
         backgroundColor="#23B8E8"
-        borderRadius="15px"
+        borderRadius="1vw"
         fontColor="#fff"
-        verticalPadding="1.2vw"
+        verticalPadding="1.2vw" 
         boxShadow="0px 0.1vw 0.4vw #00000040"
       />
 

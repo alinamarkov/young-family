@@ -4,8 +4,7 @@
   justify-content: space-around;
   align-items: center;
   margin: 0 auto;
-  width: 90%;
-  max-width: 1440px;
+  width: 100%;
   height: 100vh;
   background: #ffffff;
 }
@@ -23,6 +22,7 @@
 
 .properties {
   height: 40%;
+  width: 97%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 1.5vw;
